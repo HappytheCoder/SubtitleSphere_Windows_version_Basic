@@ -133,9 +133,9 @@ This software is distributed under the terms outlined in the accompanying `LICEN
 
 We welcome feedback and suggestions for improving **Subtitle Sphere**. Here's how you can interact with the project:
 
-- 🐛 **Report bugs**: Use the [Issues](https://github.com/HappytheCoder/SubtitleSphere_MacOS_version/issues) tab to report any problems or bugs you encounter.
+- 🐛 **Report bugs**: Use the [Issues](https://github.com/HappytheCoder/SubtitleSphere_Windows_version/issues) tab to report any problems or bugs you encounter.
 - ✨ **Feature requests**: If you have an idea for a new feature, feel free to create an issue with your suggestion.
-- 💬 **Join the discussion**: Visit the [Discussions](https://github.com/HappytheCoder/SubtitleSphere_MacOS_version/discussions) section to ask questions or share ideas with the community.
+- 💬 **Join the discussion**: Visit the [Discussions](https://github.com/HappytheCoder/SubtitleSphere_Windows_version/discussions) section to ask questions or share ideas with the community.
 
 For general inquiries or support, please visit our [Contact Page](https://www.subtitlesphere.com/contact).
 
