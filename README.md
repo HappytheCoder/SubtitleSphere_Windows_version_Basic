@@ -10,8 +10,8 @@ Subtitle Sphere is a powerful, completely free-to-use application that offers un
 
 Get **Subtitle Sphere** from the [Official Website](https://www.subtitlesphere.com) or download directly from GitHub:
 
-- 🍎 [Download for macOS (.app)](https://github.com/HappytheCoder/SubtitleSphere_MacOS/releases/download/v4.1.0/Subtitle_Sphere_Beta_v4.1.0_macOS.zip)
-- 🪟 [Download for Windows (.exe)](https://github.com/HappytheCoder/SubtitleSphere_Windows/releases/download/v4.1.0/Subtitle_Sphere_Beta_v4_1_0_Windows.zip)
+- 🍎 [Download for macOS (.app)](https://github.com/HappytheCoder/SubtitleSphere_MacOS_version/releases/download/v4.1.0/Subtitle_Sphere_Beta_v4.1.0_macOS.zip)
+- 🪟 [Download for Windows (.exe)](https://github.com/HappytheCoder/SubtitleSphere_Windows_version/releases/download/v4.1.0/Subtitle_Sphere_Beta_v4_1_0_Windows.zip)
 
 ### Installation
 
@@ -133,8 +133,9 @@ This software is distributed under the terms outlined in the accompanying `LICEN
 
 We welcome feedback and suggestions for improving **Subtitle Sphere**. Here's how you can interact with the project:
 
-- 🐛 **Report bugs**: Use the [Issues](https://github.com/HappytheCoder/SubtitleSphere_Windows_version/issues) tab to report any problems or bugs you encounter.
+- 🐛 **Report bugs**: Use the [Issues](https://github.com/HappytheCoder/SubtitleSphere_MacOS_version/issues) tab to report any problems or bugs you encounter.
 - ✨ **Feature requests**: If you have an idea for a new feature, feel free to create an issue with your suggestion.
-- 💬 **Join the discussion**: Visit the [Discussions](https://github.com/HappytheCoder/SubtitleSphere_Windows_version/discussions) section to ask questions or share ideas with the community.
+- 💬 **Join the discussion**: Visit the [Discussions](https://github.com/HappytheCoder/SubtitleSphere_MacOS_version/discussions) section to ask questions or share ideas with the community.
 
 For general inquiries or support, please visit our [Contact Page](https://www.subtitlesphere.com/contact).
+
