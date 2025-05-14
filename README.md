@@ -1,0 +1,1 @@
+# SubtitleSphere_Windows_version
