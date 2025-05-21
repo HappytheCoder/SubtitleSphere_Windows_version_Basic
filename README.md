@@ -6,10 +6,7 @@ Subtitle Sphere is a powerful, completely free-to-use application that offers un
 
 ## 📦 Download and Installation
 
-Get **Subtitle Sphere** from the [Official Website](https://www.subtitlesphere.com) or download directly from GitHub:
-
-- 🍎 [Download for macOS (.app)](https://github.com/HappytheCoder/SubtitleSphere_MacOS_version/releases/download/v4.1.0/Subtitle_Sphere_Beta_v4.1.0_macOS.zip)
-- 🪟 [Download for Windows (.exe)](https://github.com/HappytheCoder/SubtitleSphere_Windows_version/releases/download/v4.1.0/Subtitle_Sphere_Beta_v4_1_0_Windows.zip)
+Get **Subtitle Sphere** from the [Official Website](https://www.subtitlesphere.com).
 
 ### Installation
 
@@ -39,10 +36,7 @@ Subtitle Sphere is perfect for:
 * **Educators & Course Creators**: Add voiceovers and translations to lectures or tutorials—no tech expertise needed.
 * **Researchers & Academics**: Share interviews and findings globally with multilingual transcriptions and narrations.
 * **Content Creators & YouTubers**: Boost engagement with translated captions, clean narrations, or remix audio.
-* **Businesses & Organizations**: Localize training, onboarding, and promotional content in minutes.
-* **Translators & Localization Experts**: Speed up your workflow with transcription, translation, and subtitle optimization tools.
 * **Podcasters**: Repurpose audio content as narrated video with subtitles for broader reach.
-* **Media Professionals**: Generate subtitles, extract audio, merge media, and more—all offline.
 
 ---
 
@@ -60,7 +54,7 @@ Subtitle Sphere is perfect for:
 * **Auto-converts PDFs/DOCX to text** for streamlined processing.
 * Built-in **rate limiting** and **auto-backups** prevent data loss.
 
-### 🗣️ AI Voice Narration (Powered by Google Text-to-Speech)
+### 🗣️ AI Voice Narration (Powered by Google, Microsoft Edge and OpenAI(through OpenAI.fm) Text-to-Speech)
 
 * Generate high-quality narration in **multiple languages** with adjustable speed, pitch, and volume.
 * Voice syncing available for **subtitle alignment**.
@@ -121,6 +115,23 @@ Subtitle Sphere combines several powerful Python libraries under the hood:
 * Subscribe to our [YouTube channel](https://www.youtube.com/@SubtitleSphere) to stay updated.
 
 ---
+## Disclaimer:
+- All third-party libraries are maintained independently by their respective developers.
+- Subtitle Sphere does not host, modify, or redistribute these projects.
+- This GUI simply allows users to access these tools more easily.
+- These libraries are intended for personal, educational, or experimental use only.
+- You assume full responsibility for their usage and must review their respective licenses and policies.
+
+**IMPORTANT:** If you intend to use generated voices, translations, or transcriptions for commercial purposes or monetized content on platforms like YouTube, you must consult the policies of the respective third-party service providers (such as Google, Microsoft, or OpenAI). Subtitle Sphere does not promote or support the commercial use of these services without explicit consent from those providers, and the software is not responsible for such use.
+
+___
+## By using Subtitle Sphere, you acknowledge:
+- You are using third-party libraries at your own risk.
+- We disclaim liability for any damages or legal issues from their use.
+- We do not guarantee their availability, accuracy, or policy compliance.
+- This software is functionally equivalent to running the libraries via command line, but with a user-friendly GUI.
+
+___
 
 ## 📄 License
 
@@ -131,9 +142,9 @@ This software is distributed under the terms outlined in the accompanying `LICEN
 
 We welcome feedback and suggestions for improving **Subtitle Sphere**. Here's how you can interact with the project:
 
-- 🐛 **Report bugs**: Use the [Issues](https://github.com/HappytheCoder/SubtitleSphere_Windows_version/issues) tab to report any problems or bugs you encounter.
+- 🐛 **Report bugs**: Use the [Issues](https://github.com/HappytheCoder/SubtitleSphere_MacOS_version/issues) tab to report any problems or bugs you encounter.
 - ✨ **Feature requests**: If you have an idea for a new feature, feel free to create an issue with your suggestion.
-- 💬 **Join the discussion**: Visit the [Discussions](https://github.com/HappytheCoder/SubtitleSphere_Windows_version/discussions) section to ask questions or share ideas with the community.
+- 💬 **Join the discussion**: Visit the [Discussions](https://github.com/HappytheCoder/SubtitleSphere_MacOS_version/discussions) section to ask questions or share ideas with the community.
 
 For general inquiries or support, please visit our [Contact Page](https://www.subtitlesphere.com/contact).
 
