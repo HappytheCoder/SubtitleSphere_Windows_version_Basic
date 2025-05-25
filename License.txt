@@ -267,7 +267,8 @@ fairy-root/ComfyUI-OpenAI-FM to provide AI narration with expressive voices and 
 
 Library Acknowledgments and Usage Disclaimer:
 
-All of the aforementioned libraries and repositories are open-source projects maintained independently by their original developers. None of these libraries are developed, maintained, modified, or endorsed by us. This software simply provides a user-friendly GUI interface that allows users to access their functionalities without needing to use Python or command-line interfaces directly.
+All of the aforementioned libraries and repositories are open-source projects maintained independently by their original developers. None of these libraries are developed, maintained,modified, or endorsed by us. This software simply provides a user-friendly GUI interface that allows users to access their functionalities without needing to use Python or command-line interfaces directly.
+These libraries and repositories are intended solely for personal, educational, or experimental use. They are not designed, licensed, or intended for production, commercial, heavy, or industrial use. Users should exercise their own discretion and judgment when utilizing these tools. These are third party libraries maintained by third parties, so the availability depends on them maintaining and updating their libraries. The features may stop working if the libraries become outdated or stopped. If you are using a feature and it stops working, we recommend reaching out to us using our feedback form. We try our best to update the software when an update for these libraries is available.
 
 These libraries and repositories are intended solely for personal, educational, or experimental use. They are not designed, licensed, or intended for production, commercial, heavy, or industrial use. Users should exercise their own discretion and judgment when utilizing these tools.
 
