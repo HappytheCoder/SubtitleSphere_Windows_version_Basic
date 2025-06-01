@@ -87,7 +87,37 @@ Subtitle Sphere is perfect for:
 * Choose your **output folder**, preserve **originals**, and toggle **formatting options**.
 
 ---
+## AI AI Features: Google Gemini and OpenAI GPT Integration
+Subtitle Sphere offers optional advanced online features that rely on the official APIs of
+OpenAI and Google Gemini for translation and AI voice narration. These features require
+users to provide their own API keys, and all data is transmitted directly between the user’s
+device and the selected API provider.
 
+### Supported Features:
+
+* **OpenAI GPT:**
+  * Voice generation (TTS): gpt-4o-mini-tts
+  * Translation: gpt-4o-mini, gpt-4o
+* **Google Gemini:**
+  * Voice generation (TTS): gemini-2.5-flash-preview-tts
+  * Translation: gemini-2.5-flash-preview-05-20
+ 
+### Important Usage Notes:
+* Subtitle Sphere does not supply or store any API keys. Users must provide their own and are fully responsible for managing access, usage, and billing with OpenAI and Google.
+* API keys are used only for direct requests from the software to the respective provider. No keys or data are ever sent to Subtitle Sphere’s servers.
+* All requests are made securely and directly to OpenAI or Google servers.
+* Your IP address and text input are transmitted as part of these requests.
+* Depending on the provider and your account settings (especially on Google Studio’s free tier), data you submit may be used to improve their AI models. Do not upload any private or sensitive content.
+* Subtitle Sphere is not liable for any consequences related to API billing, data retention, model behavior, or privacy risks stemming from the use of these external services.
+* These AI-powered features are entirely optional. All core functionality of Subtitle Sphere (transcription, editing, separation) works offline without using Gemini or GPT.
+
+### Please review the respective service providers’ documentation and policies for full details:
+* OpenAI Terms of Use
+* OpenAI Privacy Policy
+* Google Terms of Service
+* Google Privacy Policy
+
+___
 ## 🧰 Tech Stack & Integrations
 
 Subtitle Sphere combines several powerful Python libraries under the hood:
@@ -97,10 +127,13 @@ Subtitle Sphere combines several powerful Python libraries under the hood:
 * **Deep-Translate** – access to Google Translate APIs.
 * **edge-tts** – Microsoft Edge text-to-speech support.
 * **Demucs** – vocal/instrument separation from audio.
-* **OpenAI.fm (fairy-root/ComfyUI-OpenAI-FM)** – expressive AI narration via Ope-
-nAI API.
+* **OpenAI.fm (fairy-root/ComfyUI-OpenAI-FM)** – expressive AI narration via OpenAI API.
 * **yt-dlp** – download and extract media from YouTube.
 * **youtube transcript api** – fetch YouTube video subtitles.
+* **gemini srt translator** – using the third-party **MaKTaiL/gemini-srt-translator** GitHub implementation to provide translation via the official Google Gemini API.
+* **OpenAI GPT API** – official API used for translation and TTS via gpt-4o and gpt-4o-mini-tts models.
+* **Google Gemini API** – official API used for translation and TTS via gemini-2.5-flash-preview models.
+
 You do **not** need to install or configure Python—everything is packaged and ready-to-use.
 
 All of the aforementioned libraries and repositories are open-source projects maintained independently by their original developers. None of these libraries are developed, maintained,modified, or endorsed by us. This software simply provides a user-friendly GUI interface that allows users to access their functionalities without needing to use Python or command-line interfaces directly.
