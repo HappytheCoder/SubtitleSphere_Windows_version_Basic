@@ -77,7 +77,6 @@ These features are intended for personal, educational, and passion projects only
 
 For more information on how your data may be handled by these third-party services and their usage policies, please review their respective privacy policies and terms of service:
 
-
 You are responsible for ensuring that your use of these services complies with applicable data protection regulations and any usage limits imposed by the third-party services. Subtitle Sphere is not responsible for any privacy, data protection, or usage limit issues arising from third-party services.
 
 6. Term and Termination
@@ -122,7 +121,7 @@ publications, or wherever the work is publicly displayed or distributed. Failure
 
 15. Commercial Use and Licensing
 
-The Software is currently provided free for personal and professional use, including offline and online features. However, any commercial use of the Software, including but not limited to incorporating its output into paid services, products, or media, may require a commercial license in the future. If you intend to use the Software for significant commercial purposes, such as incorporation into a paid service, product, or media, or if your commercial use exceeds a specific revenue threshold or user base, please contact us to discuss potential licensing options. We reserve the right to modify the licensing terms at any time. Failure to obtain a commercial license, if required, may result in the termination of this Agreement.
+The Software is currently provided free for personal and educational use, including offline and online features. However, any commercial use of the Software, including but not limited to incorporating its output into paid services, products, or media, may require a commercial license in the future. If you intend to use the Software for significant commercial purposes, such as incorporation into a paid service, product, or media, or if your commercial use exceeds a specific revenue threshold or user base, please contact us to discuss potential licensing options. We reserve the right to modify the licensing terms at any time. Failure to obtain a commercial license, if required, may result in the termination of this Agreement.
 
 16. Feedback and Contributions
 
@@ -143,7 +142,9 @@ b) Users maintain full control over when and what data is transmitted to these t
 
 c) Users are responsible for ensuring their use of these third-party services complies with the respective terms of service and data policies.
 
-Subtitle Sphere is currently offered as free software for both personal and professional use. However, we reserve the right to modify our licensing terms in the future, including the po-tential introduction of paid features or commercial licensing requirements. Any such changes will be communicated to users in advance and will not affect the core offline functionality of the software.
+d) Your IP address is also sent directly to the respective third-party service as part of the network request.
+
+Subtitle Sphere is currently offered as free software for personal and educational use. How-ever, we reserve the right to modify our licensing terms in the future, including the potential introduction of paid features or commercial licensing requirements. Any such changes will be communicated to users in advance and will not affect the core offline functionality of the software.
 
 18. Software Disclaimer
 
@@ -165,8 +166,8 @@ You agree not to use, reproduce, modify, or distribute any of our trademarks, lo
 
 • Using our name, logo, or branding in any way that may imply endorsement or affiliation without prior consent.
 
-• Creating derivative works based on our instructional materials, videos, or documentation.
 
+• Creating derivative works based on our instructional materials, videos, or documentation.
 
 • Distributing or displaying our content in any form, including online, in advertisements, or as part of any product or service offering, without authorization.
 
@@ -190,10 +191,10 @@ You are strictly prohibited from engaging in any activities that compromise the 
 
 Such actions are considered a material breach of this Agreement and may also constitute violations of applicable laws. Subtitle Sphere reserves the right to pursue all available legal remedies against individuals or entities that engage in unauthorized activities. If we catch someone engaging in unauthorized access or tampering, we will immediately discontinue providing support.
 
+
 21. Terms of Use — Video Import from URL
 
 This software provides functionality to extract audio and video from publicly available video URLs for purposes such as transcription, translation, or other personal uses. By using this software, you agree to the following terms and conditions:
-
 
 • Lawful Use Only: This tool is intended for lawful use only. Users are responsible for ensuring that their use of the tool complies with all applicable copyright laws, intellectual property rights, and platform-specific terms and conditions.
 
@@ -219,8 +220,8 @@ Users also confirm that the content processed does not infringe upon the rights 
 
 This software provides functionality to download transcripts of publicly available YouTube videos for purposes such as transcription, translation, or other personal uses. By using this software, you agree to the following terms and conditions:
 
-• Lawful Use Only: This tool is intended for lawful use only. Users are responsible for ensuring that their use of the tool complies with all applicable copyright laws, intellectual property rights, and platform-specific terms and conditions.
 
+• Lawful Use Only: This tool is intended for lawful use only. Users are responsible for ensuring that their use of the tool complies with all applicable copyright laws, intellectual property rights, and platform-specific terms and conditions.
 
 • Content Ownership and Permission: Users must either:
 
@@ -244,10 +245,10 @@ Users also confirm that the content and transcripts being processed do not infri
 
 This software utilizes publicly available, open-source Python libraries and GitHub reposi-tories that provide various functionalities. The software serves solely as a graphical user interface (GUI) that facilitates user interaction with these libraries. It does not host, store, or redistribute any third-party content. All actions and processing occur locally on the user’s device.
 
+
 Integrated Libraries and Repositories:
 
 • OpenAI Whisper – for local audio transcription using speech recognition models.
-
 
 • gTTS (Google Text-to-Speech) – for interfacing with Google’s TTS service.
 
@@ -261,16 +262,24 @@ Integrated Libraries and Repositories:
 
 fairy-root/ComfyUI-OpenAI-FM to provide AI narration with expressive voices and emo-tions.
 
-• yt-dlp – for importing video from URL.
+• gemini srt translator – using the third-party MaKTaiL/gemini-srt-translator GitHub implementation to provide translation via the official Google Gemini API.
+
+• OpenAI GPT API – official API used for translation and TTS features via gpt-4o and gpt-4o-mini-tts models.
+
+• Google Gemini API – official API used for translation and
+
+TTS via gemini-2. 5-flash-preview models.
+
+• yt-dlp – for importing videos from URL.
 
 • youtube transcript api – for retrieving YouTube video transcripts.
 
 Library Acknowledgments and Usage Disclaimer:
 
-All of the aforementioned libraries and repositories are open-source projects maintained independently by their original developers. None of these libraries are developed, maintained,modified, or endorsed by us. This software simply provides a user-friendly GUI interface that allows users to access their functionalities without needing to use Python or command-line interfaces directly.
+All of the aforementioned libraries and repositories are open-source projects maintained independently by their original developers. None of these libraries are developed, maintained, modified, or endorsed by us. This software simply provides a user-friendly GUI interface that allows users to access their functionalities without needing to use Python or command-line interfaces directly.
+
 These libraries and repositories are intended solely for personal, educational, or experimental use. They are not designed, licensed, or intended for production, commercial, heavy, or industrial use. Users should exercise their own discretion and judgment when utilizing these tools. These are third party libraries maintained by third parties, so the availability depends on them maintaining and updating their libraries. The features may stop working if the libraries become outdated or stopped. If you are using a feature and it stops working, we recommend reaching out to us using our feedback form. We try our best to update the software when an update for these libraries is available.
 
-These libraries and repositories are intended solely for personal, educational, or experimental use. They are not designed, licensed, or intended for production, commercial, heavy, or industrial use. Users should exercise their own discretion and judgment when utilizing these tools.
 
 By using this software, you acknowledge and agree that:
 
@@ -283,7 +292,6 @@ By using this software, you acknowledge and agree that:
 4. Using this software is functionally similar to running these libraries directly via their na-tive command-line interfaces or Python environments, except that this software provides a GUI wrapper to simplify usage.
 
 Please review and comply with the licensing terms, usage policies, and privacy statements of the respective third-party libraries and services you use through this software.
-
 
 24. Data Collection for Software Download Policy
 
@@ -301,7 +309,10 @@ By requesting the software through our survey, you agree to the following data c
 
 25. No Affiliation with Third Parties
 
-This software is not affiliated with, endorsed by, or in any way officially connected with Ope-nAI, YouTube, Google LLC, Microsoft, OpenAI or OpenAI. fm, or any of their subsidiaries or affiliates. All product and company names are trademarks™or registered® trademarks of their respective holders. Use of them does not imply any affiliation or endorsement.
+This software is not affiliated with, endorsed by, or in any way officially connected with Ope-nAI, YouTube, Google LLC, Microsoft, OpenAI or OpenAI. fm, or any of their subsidiaries
+
+
+or affiliates. All product and company names are trademarks™or registered® trademarks of their respective holders. Use of them does not imply any affiliation or endorsement.
 
 26. Non-Commercial Software Disclaimer
 
@@ -311,11 +322,50 @@ The primary purpose of the software is to simplify access to publicly available,
 
 By using this software, you acknowledge and agree that it is offered purely as a convenience, and that it remains your responsibility to ensure all use complies with applicable laws and platform terms of service.
 
+27. Use of AI Translation and Voice Features via Google Gemini and OpenAI GPT
 
-27. Contact Information
+Certain features of the Software, such as translation and AI-powered voice generation, allow integration with third-party AI services, including the Google Gemini API and OpenAI GPT. These features require the user to provide their own API keys for access and functionality.
 
-For any inquiries regarding this Agreement or the Software, please contact: Subtitle Sphere:
+These features currently utilize the following models:
 
-support@subtitlesphere.com.
+• OpenAI:
+
+– Voice generation (TTS): gpt-4o-mini-tts
+
+– Translation: gpt-4o-mini and gpt-4o
+
+• Google Gemini:
+
+– Voice generation (TTS): gemini-2. 5-flash-preview-tts
+
+– Translation: gemini-2. 5-flash-preview-05-20
+
+Key Terms of Use and Responsibilities:
+
+• You must provide your own valid API key for Google Gemini or OpenAI GPT services in order to use these features. Subtitle Sphere does not provide or embed any such keys.
+
+
+• Your API key is used solely for the purpose of sending your requests directly to the respective service provider (Google or OpenAI). It is never stored, logged, or transmitted to any other server or third party by the Software.
+
+• All billing, usage tracking, and data handling is strictly between you and the respective service provider (Google or OpenAI). Subtitle Sphere has no access to your usage data, billing information, or API usage statistics.
+
+• You are solely responsible for understanding and complying with the terms of service, data usage policies, privacy policies, and billing practices of the services you choose to use.
+
+• When you use the Gemini API (especially through Google Studio free tier), your data may be retained by Google and may be used to improve their AI models. Similarly, OpenAI’s terms may permit the use of data for training purposes depending on your usage tier and account settings. You must consult the service providers’ policies directly.
+
+• You must not upload or process any confidential, sensitive, or private data using these features. Use of these features is at your own discretion and risk.
+
+• Subtitle Sphere disclaims all responsibility for any loss of data, charges incurred, model behavior, data retention, or any consequences arising from your use of the Google Gemini API or OpenAI GPT.
+
+• By using these features, you agree not to hold Subtitle Sphere liable for any claims, disputes, or damages arising from or related to your use of these third-party services.
+
+Please consult the official terms and privacy policies of these service providers for further details:
+
+
+Your use of these services indicates your understanding and acceptance of these conditions.
+
+28. Contact Information
+
+For any inquiries regarding this Agreement or the Software, please contact: Subtitle Sphere: support@subtitlesphere. com.
 
 
