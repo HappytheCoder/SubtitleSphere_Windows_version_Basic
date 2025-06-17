@@ -2,7 +2,7 @@
 
 End User License Agreement (EULA) for Subtitle Sphere
 
-Effective Date: May 2025
+Effective Date: June 2025
 
 This End User License Agreement (“Agreement”) is a legal agreement between you (“User”or “You”) and Subtitle Sphere (“Licensor, ” “We, ” or “Us”) for the use of Subtitle Sphere (“Software”). By installing, accessing, or using the Software, You agree to be bound by the terms of this Agreement. If You do not agree to the terms of this Agreement, do not install, access, or use the Software.
 
@@ -76,6 +76,7 @@ These features are intended for personal, educational, and passion projects only
 
 
 For more information on how your data may be handled by these third-party services and their usage policies, please review their respective privacy policies and terms of service:
+
 
 You are responsible for ensuring that your use of these services complies with applicable data protection regulations and any usage limits imposed by the third-party services. Subtitle Sphere is not responsible for any privacy, data protection, or usage limit issues arising from third-party services.
 
@@ -248,38 +249,34 @@ This software utilizes publicly available, open-source Python libraries and GitH
 
 Integrated Libraries and Repositories:
 
-• OpenAI Whisper – for local audio transcription using speech recognition models.
+• OpenAI Whisper – for local transcription using speech recognition models. MIT License. GitHub:
 
-• gTTS (Google Text-to-Speech) – for interfacing with Google’s TTS service.
+• gTTS (Google Text-to-Speech) – interface to Google’s TTS. MIT License. GitHub:
 
-• Deep-Translate (Google Translate via Deep Translate) – for accessing Google Translate APIs.
+• Deep-Translate – access to Google Translate APIs. Apache License. GitHub:
 
-• edge-tts – for accessing Microsoft Edge Text-to-Speech functionality.
+• OpenAI. fm (fairy-root/ComfyUI-OpenAI-FM) – expressive AI TTS node via Com-fyUI. MIT License. GitHub:
 
-• Demucs – for source separation of audio files (e. g. , splitting vocals and background music).
+• gemini srt translator – subtitle translation via Google Gemini API. MIT License. GitHub:
 
-• OpenAI API via OpenAI. fm – using the third-party GitHub implementation
+• OpenAI GPT API – official API used for translation and TTS via gpt-4o and gpt-4o-mini-tts models.
 
-fairy-root/ComfyUI-OpenAI-FM to provide AI narration with expressive voices and emo-tions.
+• Google Gemini API – official API used for translation and TTS via gemini-2. 0-flash and gemini-2. 5-flash-preview-tts models.
 
-• gemini srt translator – using the third-party MaKTaiL/gemini-srt-translator GitHub implementation to provide translation via the official Google Gemini API.
+• yt-dlp – download and extract media from YouTube. GitHub:
 
-• OpenAI GPT API – official API used for translation and TTS features via gpt-4o and gpt-4o-mini-tts models.
+• youtube transcript api – fetch YouTube video subtitles. MIT License. GitHub:
 
-• Google Gemini API – official API used for translation and
-
-TTS via gemini-2. 5-flash-preview models.
-
-• yt-dlp – for importing videos from URL.
-
-• youtube transcript api – for retrieving YouTube video transcripts.
+• Chatterbox (Resemble AI) – voice cloning. MIT License. GitHub:
 
 Library Acknowledgments and Usage Disclaimer:
 
 All of the aforementioned libraries and repositories are open-source projects maintained independently by their original developers. None of these libraries are developed, maintained, modified, or endorsed by us. This software simply provides a user-friendly GUI interface that allows users to access their functionalities without needing to use Python or command-line interfaces directly.
 
-These libraries and repositories are intended solely for personal, educational, or experimental use. They are not designed, licensed, or intended for production, commercial, heavy, or industrial use. Users should exercise their own discretion and judgment when utilizing these tools. These are third party libraries maintained by third parties, so the availability depends on them maintaining and updating their libraries. The features may stop working if the libraries become outdated or stopped. If you are using a feature and it stops working, we recommend reaching out to us using our feedback form. We try our best to update the software when an update for these libraries is available.
+These libraries and repositories are intended solely for personal, educational, or experimental use. They are not designed, licensed, or intended for production, commercial, heavy, or
 
+
+industrial use. Users should exercise their own discretion and judgment when utilizing these tools. These are third party libraries maintained by third parties, so the availability depends on them maintaining and updating their libraries. The features may stop working if the libraries become outdated or stopped. If you are using a feature and it stops working, we recommend reaching out to us using our feedback form. We try our best to update the software when an update for these libraries is available.
 
 By using this software, you acknowledge and agree that:
 
@@ -307,12 +304,10 @@ By requesting the software through our survey, you agree to the following data c
 
 • Commitment to Privacy: We respect your privacy and ensure that survey responses remain anonymous. We do not share or sell any collected data under any circumstances.
 
+
 25. No Affiliation with Third Parties
 
-This software is not affiliated with, endorsed by, or in any way officially connected with Ope-nAI, YouTube, Google LLC, Microsoft, OpenAI or OpenAI. fm, or any of their subsidiaries
-
-
-or affiliates. All product and company names are trademarks™or registered® trademarks of their respective holders. Use of them does not imply any affiliation or endorsement.
+This software is not affiliated with, endorsed by, or in any way officially connected with Ope-nAI, YouTube, Google LLC, Microsoft, OpenAI or OpenAI. fm, or any of their subsidiaries or affiliates. All product and company names are trademarks™or registered® trademarks of their respective holders. Use of them does not imply any affiliation or endorsement.
 
 26. Non-Commercial Software Disclaimer
 
@@ -338,12 +333,12 @@ These features currently utilize the following models:
 
 – Voice generation (TTS): gemini-2. 5-flash-preview-tts
 
-– Translation: gemini-2. 5-flash-preview-05-20
+– Translation: gemini-2. 0-flash
 
 Key Terms of Use and Responsibilities:
 
-• You must provide your own valid API key for Google Gemini or OpenAI GPT services in order to use these features. Subtitle Sphere does not provide or embed any such keys.
 
+• You must provide your own valid API key for Google Gemini or OpenAI GPT services in order to use these features. Subtitle Sphere does not provide or embed any such keys.
 
 • Your API key is used solely for the purpose of sending your requests directly to the respective service provider (Google or OpenAI). It is never stored, logged, or transmitted to any other server or third party by the Software.
 
