@@ -6,7 +6,7 @@ Subtitle Sphere is a powerful, completely free-to-use application that offers un
 
 ## 📦 Download and Installation
 
-Get **Subtitle Sphere** from the [Official Website](https://www.subtitlesphere.com).
+**Subtitle Sphere** [Official Website](https://www.subtitlesphere.com).
 
 ### Installation
 
