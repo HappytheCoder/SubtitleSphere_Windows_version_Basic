@@ -2,7 +2,7 @@
 
 End User License Agreement (EULA) for Subtitle Sphere
 
-Effective Date: June 2025
+Effective Date: August 2025
 
 This End User License Agreement (“Agreement”) is a legal agreement between you (“User”or “You”) and Subtitle Sphere (“Licensor, ” “We, ” or “Us”) for the use of Subtitle Sphere (“Software”). By installing, accessing, or using the Software, You agree to be bound by the terms of this Agreement. If You do not agree to the terms of this Agreement, do not install, access, or use the Software.
 
@@ -75,8 +75,7 @@ Please note:
 These features are intended for personal, educational, and passion projects only. If you intend to use generated voices for commercial purposes or monetized content on platforms like YouTube, you must consult the policies of the respective third-party service providers. Subtitle Sphere does not promote or support the commercial use of these services without explicit consent from those providers, and the software is not responsible for such use.
 
 
-For more information on how your data may be handled by these third-party services and their usage policies, please review their respective privacy policies and terms of service:
-
+For more information on how your data may be handled by these third-party services and their usage policies, please review their respective privacy policies and terms of service.
 
 You are responsible for ensuring that your use of these services complies with applicable data protection regulations and any usage limits imposed by the third-party services. Subtitle Sphere is not responsible for any privacy, data protection, or usage limit issues arising from third-party services.
 
@@ -269,14 +268,18 @@ Integrated Libraries and Repositories:
 
 • Chatterbox (Resemble AI) – voice cloning. MIT License. GitHub:
 
+• Kokoro Text-To-Speech – for offline AI narration. (MIT License) and (Apache License)
+
+• Argos Translate (Open Tech) – for offline translation. (MIT License)
+
 Library Acknowledgments and Usage Disclaimer:
 
-All of the aforementioned libraries and repositories are open-source projects maintained independently by their original developers. None of these libraries are developed, maintained, modified, or endorsed by us. This software simply provides a user-friendly GUI interface that allows users to access their functionalities without needing to use Python or command-line interfaces directly.
-
-These libraries and repositories are intended solely for personal, educational, or experimental use. They are not designed, licensed, or intended for production, commercial, heavy, or
+All of the aforementioned libraries and repositories are open-source projects maintained independently by their original developers. None of these libraries are developed, maintained, modified, or endorsed by us. This software simply provides a user-friendly GUI interface that
 
 
-industrial use. Users should exercise their own discretion and judgment when utilizing these tools. These are third party libraries maintained by third parties, so the availability depends on them maintaining and updating their libraries. The features may stop working if the libraries become outdated or stopped. If you are using a feature and it stops working, we recommend reaching out to us using our feedback form. We try our best to update the software when an update for these libraries is available.
+allows users to access their functionalities without needing to use Python or command-line interfaces directly.
+
+These libraries and repositories are intended solely for personal, educational, or experimental use. They are not designed, licensed, or intended for production, commercial, heavy, or industrial use. Users should exercise their own discretion and judgment when utilizing these tools. These are third party libraries maintained by third parties, so the availability depends on them maintaining and updating their libraries. The features may stop working if the libraries become outdated or stopped. If you are using a feature and it stops working, we recommend reaching out to us using our feedback form. We try our best to update the software when an update for these libraries is available.
 
 By using this software, you acknowledge and agree that:
 
@@ -290,34 +293,43 @@ By using this software, you acknowledge and agree that:
 
 Please review and comply with the licensing terms, usage policies, and privacy statements of the respective third-party libraries and services you use through this software.
 
-24. Data Collection for Software Download Policy
+23. 1 Data Collection for Waiting List Application Policy
 
-By requesting the software through our survey, you agree to the following data collection policy:
+By submitting an application through our waiting list, you agree to the following data collection policy:
 
-• Purpose of Data Collection: When you submit the anonymous download survey, the hosting platform automatically collects your IP address for security purposes.
+• Purpose of Data Collection: We collect your email address, location, YouTube han-dle, platform preference, and project details to evaluate applications and communicate with approved members of our creator community.
 
-• Data Separation and Anonymization: Survey responses are stored separately from IP addresses. Once the IP address is no longer needed for security monitoring, it is deleted, ensuring that survey results remain anonymous.
+• Application Processing: Your submitted information is used solely to review your application, verify your YouTube engagement, and contact you if approved for access to Subtitle Sphere.
 
-• IP Address Collection and Retention: The IP address is only retained if unusual behavior is detected (e. g. , multiple form submissions, spamming, fake entries). Otherwise, it is deleted after a period of routine security monitoring.
-
-• Data Retention and Removal: If no suspicious activity is associated with an IP address, it is removed after security checks are completed.
-
-• Commitment to Privacy: We respect your privacy and ensure that survey responses remain anonymous. We do not share or sell any collected data under any circumstances.
+• IP Address and Security: Our hosting platform automatically collects IP addresses for security purposes to prevent spam and abuse. IP addresses are retained only if
 
 
-25. No Affiliation with Third Parties
+suspicious activity is detected (e. g. , multiple submissions, bot behavior). Otherwise, they are deleted after routine security monitoring.
+
+• Data Retention: Application data is retained for processing purposes. Email ad-dresses of approved applicants are kept for community communication and software access. Non-approved applications may be retained for a limited period to prevent resubmission abuse.
+
+• YouTube Verification: We may verify your YouTube engagement (comments) as part of our application review process. We only check publicly available information and do not access private account data.
+
+• Communication: If approved, we will contact you via the email address provided with the subject “Welcome to Subtitle Sphere Community! ” Approved members may receive occasional updates about software improvements or community news.
+
+• Data Storage and Compliance: All collected data is processed and stored securely by our cloud hosting infrastructure provider in privacy-compliant regions. Your data will never be shared with or sold to third parties by us under any circumstances. Data handling practices adhere to GDPR, CCPA, and other applicable privacy regulations as managed by the hosting provider.
+
+Our waiting list form includes anti-spam protection (reCAPTCHA and honeypot fields) to ensure only genuine applications are processed. We are committed to protecting your privacy while building a community of dedicated creators.
+
+24. No Affiliation with Third Parties
 
 This software is not affiliated with, endorsed by, or in any way officially connected with Ope-nAI, YouTube, Google LLC, Microsoft, OpenAI or OpenAI. fm, or any of their subsidiaries or affiliates. All product and company names are trademarks™or registered® trademarks of their respective holders. Use of them does not imply any affiliation or endorsement.
 
-26. Non-Commercial Software Disclaimer
+25. Non-Commercial Software Disclaimer
 
 This software is provided free of charge and is intended solely for personal, educational, and non-commercial use. No part of this software is monetized, and no content is hosted, stored, or sold by the developers.
 
 The primary purpose of the software is to simplify access to publicly available, open-source tools via a user-friendly graphical interface. The developers receive no compensation for this software and do not profit, directly or indirectly, from its use.
 
+
 By using this software, you acknowledge and agree that it is offered purely as a convenience, and that it remains your responsibility to ensure all use complies with applicable laws and platform terms of service.
 
-27. Use of AI Translation and Voice Features via Google Gemini and OpenAI GPT
+26. Use of AI Translation and Voice Features via Google Gemini and OpenAI GPT
 
 Certain features of the Software, such as translation and AI-powered voice generation, allow integration with third-party AI services, including the Google Gemini API and OpenAI GPT. These features require the user to provide their own API keys for access and functionality.
 
@@ -337,7 +349,6 @@ These features currently utilize the following models:
 
 Key Terms of Use and Responsibilities:
 
-
 • You must provide your own valid API key for Google Gemini or OpenAI GPT services in order to use these features. Subtitle Sphere does not provide or embed any such keys.
 
 • Your API key is used solely for the purpose of sending your requests directly to the respective service provider (Google or OpenAI). It is never stored, logged, or transmitted to any other server or third party by the Software.
@@ -348,19 +359,14 @@ Key Terms of Use and Responsibilities:
 
 • When you use the Gemini API (especially through Google Studio free tier), your data may be retained by Google and may be used to improve their AI models. Similarly, OpenAI’s terms may permit the use of data for training purposes depending on your usage tier and account settings. You must consult the service providers’ policies directly.
 
+
 • You must not upload or process any confidential, sensitive, or private data using these features. Use of these features is at your own discretion and risk.
 
 • Subtitle Sphere disclaims all responsibility for any loss of data, charges incurred, model behavior, data retention, or any consequences arising from your use of the Google Gemini API or OpenAI GPT.
 
 • By using these features, you agree not to hold Subtitle Sphere liable for any claims, disputes, or damages arising from or related to your use of these third-party services.
 
-Please consult the official terms and privacy policies of these service providers for further details:
-
+Please consult the official terms and privacy policies of these service providers for further details.
 
 Your use of these services indicates your understanding and acceptance of these conditions.
-
-28. Contact Information
-
-For any inquiries regarding this Agreement or the Software, please contact: Subtitle Sphere: support@subtitlesphere. com.
-
 
